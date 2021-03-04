@@ -27,7 +27,12 @@
   background-position: center;
 }
 .header-banner h2{
-margin-bottom: 6rem;
+  margin-bottom: 6rem;
+}
+.blur-wrapper{
+  background-attachment: fixed;
+  margin: 1rem 1rem;
+  filter: blur(1px);
 }
 .header-banner__buttons{
   display: flex;
