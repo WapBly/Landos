@@ -26,20 +26,8 @@
   background-image: url(https://cs1.livemaster.ru/storage/e3/d8/d3d5d5aaf171d82a32d9eb2d08ia--dlya-doma-i-interera-komod-bufet-vintazhnaya-mebel-mid-centur.jpg);
   background-position: center;
 }
-.header-banner h1{
-  padding: 1rem;
-  position: relative;
-}
-section::before {
-  position: absolute;
-  left: 0; right: 0; top: 0; bottom: 0;
-  z-index: -1;
-  background: url(/example/image/aquaria.jpg) center / cover no-repeat;
-  filter: blur(5px);
-}
 .header-banner h2{
 margin-bottom: 6rem;
-filter: blur(5px);
 }
 .header-banner__buttons{
   display: flex;
