@@ -132,3 +132,25 @@ color: #cb8652;
   width: 42%;
   margin-left: -1%;
 }
+.footer-nav{
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  z-index: 100;
+  background: rgb(205 208 213 / 40%);
+}
+.footer-nav__logo{
+  display: flex;
+  width: 30%;
+}
+.footer-nav__buttons{
+  display: flex;
+}
+.footer-nav a{
+  padding: 2rem 4rem;
+}
