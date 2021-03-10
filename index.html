@@ -14,14 +14,14 @@
         <a>New Life Studio</a>
       </div>
       <div class="header-nav__buttons">
-        <a>Главная</a>
+        <a href="#header-banner">Главная</a>
         <a>Галерея</a>
         <a>Заказать</a>
         <a>Контакты</a>
       </div>
     </nav>
 
-    <div class="header-banner">
+    <div class="header-banner" id="header-banner">
       <div class="header-banner__wrapper">
         <h1>
           <span class="blur"></span>
@@ -48,37 +48,55 @@
         Выглядят они плохо, а выкинуть рука не поднимается. У этих вещей есть 
         душа, есть история и стиль. Они крепкие и надежные. И после ремонта могут служить еще много-много лет.
       </p>
-      <div class="text_basic text-right"><img src="source/images/text_basic.jpg" class="leftimg">
-      <blockquote class="text_basic text_to-the-right">
-        Именно эти ощущения привели меня к тому, 
-        чем я занимаюсь – реставрация и обновление 
-        винтажной мебели. Сначала я делала это для 
-        себя и своих близких. А сейчас  готова сделать для вас.
-      </blockquote>
-      <blockquote class="text_basic text_to-the-right">
-        Мебель обновляю полностью - укрепляю корпус, в мягкой заменяю 
-        наполнитель,  ремни и, конечно, обивку.  С деревянной снимаю 
-        старое покрытие, устраняю все дефекты, и наношу новое.  Я стараюсь 
-        максимально сохранить вид и стиль предмета, живущую в нем историю.
-      </blockquote>
-    </div>
+      <div class="text_basic intro_wrapper">
+        <img src="source/images/text_basic.jpg" class="leftimg">
+        <blockquote class="text_basic text_to-the-right">
+          Именно эти ощущения привели меня к тому, 
+          чем я занимаюсь – реставрация и обновление 
+          винтажной мебели. Сначала я делала это для 
+          себя и своих близких. А сейчас  готова сделать для вас.
+        </blockquote>
+        <blockquote class="text_basic text_to-the-right">
+          Мебель обновляю полностью - укрепляю корпус, в мягкой заменяю 
+          наполнитель,  ремни и, конечно, обивку.  С деревянной снимаю 
+          старое покрытие, устраняю все дефекты, и наношу новое.  Я стараюсь 
+          максимально сохранить вид и стиль предмета, живущую в нем историю.
+        </blockquote>
+      </div>
       <p class="text_basic test_last">
         Такая мебель неповторима, и отлично вписывается не только в 
         модный сейчас стиль mid-century, но и практически в любой 
         интерьер внося в него индивидуальность и комфорт.
       </p>
     </div>
+    <div class="container contact_wrapper">
+      <div class="contact_form">
+        <h3 class="contact_form__title">Оформить заказ или задать вопрос</h3>
+        <div class="contact_form__input_wrapper">
+          <input type="text" name="name" id="contact_name" placeholder="Ваше имя">
+        </div>
+        <div class="contact_form__input_wrapper">
+          <input type="text" name="emailornumber" id="contact_emailornumber" placeholder="Ваш телефон или email">
+        </div>
+        <br><textarea id="contact_message" placeholder="Сообщение">
+
+        </textarea>
+        <input type="file">
+        <button id="button_send">
+          Отправить
+        </button>
+      </div>
+      <div>
+
+      </div>
+    </div>
     <footer class="footer-nav">
       <div class="footer-nav__logo">
         <a>New Life Studio</a>
       </div>
       <div class="footer-nav__buttons">
-        <a>Главная</a>
-        <a>Галерея</a>
-        <a>Заказать</a>
-        <a>Контакты</a>
+        <a>2021г.</a>
       </div>
-
     </footer>
   </body>
 </html>
