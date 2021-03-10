@@ -7,6 +7,7 @@ a{
   color:black;
   text-decoration: none;
 }
+* { scroll-behavior: smooth }
 .header-nav {
   display: flex;
   position: fixed;
@@ -26,7 +27,7 @@ a{
   display: flex;
 }
 .header-nav a{
-  padding: 2rem 4rem;
+  padding: 1.5rem 4rem;
 }
 .header-banner{
   height: 800px;
@@ -68,8 +69,11 @@ a{
   min-width: 120px;
   text-align: center;
   opacity: 0.8;
-  transition: opacity ease .3s;
+  transition: all ease .3s;
   border-radius: 5px;
+}
+.header-banner__buttons:hover .container{
+  height: 10%;
 }
 .header-banner__buttons a:hover{
   opacity: 1;
@@ -171,9 +175,13 @@ blockquote{
 .footer-nav a{
   padding: 2rem 4rem;
 }
+.container_footer{
+padding: 2rem 5rem;
+}
 .contact_wrapper{
   background-color: #2e2d2c;
   display: flex;
+  flex-direction: inherit;
   color: #fff;
 }
 .contact_form{
@@ -210,5 +218,22 @@ blockquote{
   left: 0;
 }
 #button_send{
-
+  position: flex;
+  margin-left: 90%;
+}
+.contacts{
+display: flex;
+flex-direction: column;
+position: relative;
+justify-content: left;
+background-color: #454545;
+margin-left: 2rem;
+width: 80%;
+text-align: left;
+}
+.contacts_text{
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
