@@ -189,7 +189,7 @@ color: #fff;
 .contact_form{
   position: relative;
   background-color: #454545;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
 }
 .contact_form input, .contact_form textarea{
   position: relative;
@@ -228,6 +228,18 @@ display: none;
   display: inline-block;
   padding: 6px 12px;
   cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: 200;
+  background-color: #fff;
+  color: black;
+  transition: all ease .2s;
+  border: none;
+}
+.custom-file-upload:hover{
+  background: #ccb17a;
+  color: #fff;
+  cursor: pointer;
 }
 #button_send{
   display: block;
@@ -237,6 +249,8 @@ display: none;
   bottom: 1rem;
   right: -2rem;
   background: #fff;
+  font: inherit;
+  font-weight: 200;
   border: none;
   transition: all ease-in .2s;
 }
@@ -253,6 +267,9 @@ display: none;
 #button_send:hover span{
   margin-left: 1.5rem;
   padding-right: 0;
+}
+#button_send:focus{
+  outline: none;
 }
 .container_footer__contacts{
   display: flex;
