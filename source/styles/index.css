@@ -19,15 +19,24 @@ a{
   z-index: 1000;
   background: rgb(255 255 255 / 30%);
 }
-.header-nav__logo{
+.header-nav a{
+  padding: 1.5rem 4rem;
+}
+.header-nav__logo a.header-nav__logo__link{
   display: flex;
-  width: 30%;
+  position: absolute;
+  width: 10%;
+  height: 4.5rem;
+  left: 3rem;
+  top: 0;
+  transition: all ease .3s;
+  padding: 0;
+}
+.header-nav__logo:hover{
+  cursor: pointer;
 }
 .header-nav__buttons{
   display: flex;
-}
-.header-nav a{
-  padding: 1.5rem 4rem;
 }
 .header-banner{
   height: 800px;
