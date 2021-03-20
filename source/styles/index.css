@@ -7,7 +7,9 @@ a{
   color:black;
   text-decoration: none;
 }
-* { scroll-behavior: smooth }
+* { 
+  scroll-behavior: smooth;
+}
 .header-nav {
   display: flex;
   position: fixed;
