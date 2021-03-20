@@ -1,0 +1,23 @@
+{
+  "name": "landos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WapBly/Landos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WapBly/Landos/issues"
+  },
+  "homepage": "https://github.com/WapBly/Landos#readme",
+  "dependencies": {
+    "prettier": "^2.2.1",
+    "stylelint": "^13.12.0"
+  }
+}
