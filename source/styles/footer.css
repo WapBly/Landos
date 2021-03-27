@@ -1,0 +1,25 @@
+.footer-nav {
+  display: flex;
+  position: relative;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  z-index: 100;
+  background: #2e2d2c;
+  border-top: 2px solid rgb(51, 50, 50);
+}
+.footer-nav__logo {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-left: 2rem;
+  height: 5rem;
+}
+.footer-nav a {
+  padding: 2rem 4rem;
+  color: #fff;
+}

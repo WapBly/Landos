@@ -1,0 +1,133 @@
+.container_footer {
+  padding: 2rem 5rem;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 2fr 1fr;
+  background-color: #2e2d2c;
+  color: #fff;
+}
+.container_footer h3 {
+  font-weight: 400;
+}
+.contact_form {
+  position: relative;
+  background-color: #454545;
+  padding: 1rem 2rem;
+}
+.contact_form input,
+.contact_form textarea {
+  position: relative;
+  background-color: transparent;
+  padding: 1rem;
+  border: none;
+  font-size: 1.3rem;
+  color: #fff;
+}
+.contact_form textarea {
+  background-color: #2e2d2c;
+  width: 100%;
+  max-height: 7rem;
+  resize: none;
+  margin-top: 1rem;
+}
+.contact_form__input_wrapper {
+  display: inline-block;
+  position: relative;
+}
+.contact_form__input_wrapper:after {
+  content: "";
+  display: block;
+  width: 80%;
+  bottom: 1px;
+  position: absolute;
+  background-color: #fff;
+  height: 1px;
+  left: 0;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: 200;
+  background-color: #fff;
+  color: black;
+  transition: all ease 0.2s;
+  border: none;
+}
+.custom-file-upload:hover {
+  background: #ccb17a;
+  color: #fff;
+  cursor: pointer;
+}
+#button_send {
+  display: block;
+  position: absolute;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  bottom: 0.5rem;
+  right: -1rem;
+  background: #fff;
+  font: inherit;
+  font-weight: 200;
+  border: none;
+  transition: all ease-in 0.2s;
+}
+#button_send span {
+  padding-right: 0.5rem;
+  margin-left: 1rem;
+  transition: all ease-in 0.2s;
+}
+#button_send:hover {
+  background: #ccb17a;
+  color: #fff;
+  cursor: pointer;
+}
+#button_send:hover span {
+  margin-left: 1.5rem;
+  padding-right: 0;
+}
+#button_send:focus {
+  outline: none;
+}
+.container_footer__contacts {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: left;
+  background-color: #454545;
+  text-align: left;
+  height: 15rem;
+}
+.container_footer__contacts a {
+  color: #fff;
+  font-weight: 100;
+}
+.container_footer__contacts_text {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#massage {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 5rem;
+  top: -50rem;
+  left: calc(50% - 10rem);
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem black;
+}
+#massage.opened_massage {
+  top: calc(50% - 2.5rem);
+}

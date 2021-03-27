@@ -1,0 +1,115 @@
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+* {
+  scroll-behavior: smooth;
+}
+.header-nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #fff;
+  justify-content: space-around;
+  z-index: 1000;
+  background: rgb(255 255 255 / 30%);
+}
+.header-nav a {
+  padding: 1.5rem 4rem;
+}
+.header-nav__logo a.header-nav__logo__link {
+  display: flex;
+  position: absolute;
+  width: 10%;
+  height: 4.5rem;
+  left: 3rem;
+  top: 0;
+  transition: all ease 0.3s;
+  padding: 0;
+}
+.header-nav__logo:hover {
+  cursor: pointer;
+}
+.header-nav__buttons {
+  display: flex;
+}
+.header-banner {
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+.header-banner__background {
+  height: 800px;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+}
+.header-banner__wrapper {
+  background: url("../images/header.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.header-banner__wrapper h2 {
+  margin-bottom: 6rem;
+}
+.header-banner-logo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 40%;
+}
+.header-banner__buttons {
+  display: flex;
+  justify-content: center;
+}
+.header-banner__buttons a {
+  padding: 1rem 2rem;
+  background-color: #2d2e2b;
+  color: #fff;
+  min-width: 120px;
+  text-align: center;
+  opacity: 0.8;
+  transition: all ease 0.3s;
+  border-radius: 5px;
+}
+.header-banner__buttons:hover .container {
+  height: 10%;
+}
+.header-banner__buttons a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.blur {
+  position: absolute;
+  filter: blur(1px);
+}
+.header-banner__wrapper h1,
+.header-banner__wrapper h2 {
+  position: relative;
+}
+.header-banner__wrapper h1 .blur,
+.header-banner__wrapper h2 .blur {
+  top: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200%;
+  left: -50%;
+}
